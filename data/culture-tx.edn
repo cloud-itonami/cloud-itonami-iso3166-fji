@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "fji.dish.kokoda", :name "Kokoda", :country "FJI", :kind :dish, :summary "Fijian version of the Oceanian dish 'ota 'ika: raw fish marinated in citrus juice and coconut milk.", :url "https://en.wikipedia.org/wiki/%27Ota_%27ika", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fji.dish.lovo", :name "Lovo (earth oven)", :country "FJI", :kind :dish, :summary "Indigenous Fijian earth-oven cooking in which staple foods are prepared for ceremonial or celebratory occasions.", :url "https://en.wikipedia.org/wiki/Earth_oven", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fji.dish.rourou", :name "Rourou", :country "FJI", :kind :dish, :summary "Fijian stew of taro leaves cooked in coconut milk with aromatics, often served with cassava or roti; a Fijian preparation of the Polynesian taro-leaf dish lu'au.", :url "https://en.wikipedia.org/wiki/L%C5%AB%CA%BBau_(food)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fji.beverage.yaqona", :name "Yaqona (kava)", :country "FJI", :kind :beverage, :summary "In Fiji kava is called yaqona; a formal yaqona ceremony often accompanies important social, political or religious functions, with ritual presentation of bundled roots as a sevusevu gift.", :url "https://en.wikipedia.org/wiki/Kava", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fji.craft.masi", :name "Masi (tapa cloth)", :country "FJI", :kind :craft, :summary "Fijian barkcloth made by women from paper mulberry and decorated by stencilling, smoking and rubbing; its colours traditionally indicated the wearer's social rank.", :url "https://en.wikipedia.org/wiki/Tapa_cloth", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fji.festival.fiji-day", :name "Fiji Day", :country "FJI", :kind :festival, :summary "Culmination of the annual Fiji Week celebrations on 10 October, commemorating independence from British colonial rule in 1970 with religious ceremonies and cultural performances.", :url "https://en.wikipedia.org/wiki/Fiji_Day", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fji.heritage.levuka", :name "Levuka", :country "FJI", :kind :heritage, :summary "Historic port town on Ovalau island, designated Fiji's first UNESCO World Heritage Site in 2013 for its exceptional testimony to late colonial Pacific port towns.", :url "https://en.wikipedia.org/wiki/Levuka", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
