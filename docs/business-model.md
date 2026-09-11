@@ -8,7 +8,7 @@ Fiji.
   Finance Management Act 2004: reg 4/5 establish the Office and its
   functions, regs 9-20 establish and govern the Government Tender
   Board, reg 29/reg 30 fix a FJD 50,000/50,001 procurement-method
-  value threshold (see `src/marketentry/facts.cljc`); no bespoke
+  value threshold (see `src/marketentry/facts.cljk`); no bespoke
   government-built e-procurement self-service portal was found reachable
   this session -- the Fiji Procurement Office's own site instead links a
   third-party white-label e-tendering platform, `portal.tenderlink.com/
