@@ -31,7 +31,7 @@ as every other `cloud-itonami-iso3166-*` sibling:
   research trail and honestly-narrowed scope, including facts this
   iteration could NOT verify (e.g. a local-representative/agent
   provision in the Companies Act 2015's own text).
-- `src/statute/facts.cljc` -- general-law catalog: the Companies Act
+- `src/statute/facts.cljk` -- general-law catalog: the Companies Act
   2015 (company law) and the Employment Relations Act 2007 (labour law,
   confirmed directly from Fiji's own Judiciary website).
 
@@ -53,7 +53,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Fiji:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
